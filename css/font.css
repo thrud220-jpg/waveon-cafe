@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*outfit*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*pt serif*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Aritaburi*/
+@font-face {
+    font-family: 'Aritaburi';
+    src: url(../font/Arita-buri-HL.woff) format('woff');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Aritaburi';
+    src: url(../font/Arita-buri-L.woff) format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Aritaburi';
+    src: url(../font/Arita-buri-M.woff) format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Aritaburi';
+    src: url(../font/Arita-buri-SB.woff) format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Aritaburi';
+    src: url(../font/Arita-buri-B.woff) format('woff');
+    font-weight: 700;
+}
+
