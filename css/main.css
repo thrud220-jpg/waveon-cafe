@@ -99,7 +99,7 @@
 
 @media(max-width:1250px){
   #brand-story{
-  margin: 50px 0;
+  margin: 10px 0;
 }
   .main-txt h1{
   font-size: 40px;
@@ -600,7 +600,7 @@ main h2{
   padding-top: 20px;
 }
 #review {
-    padding-bottom: 90px;
+    padding-bottom: 40px;
 }
 }
 

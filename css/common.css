@@ -597,7 +597,7 @@ footer .f-right .tel{
 
 }
 
-@media(max-width:390px){
+@media(max-width:450px){
   footer .f-link {
    gap: 8px;
 }
