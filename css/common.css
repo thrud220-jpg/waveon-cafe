@@ -559,6 +559,9 @@ footer .copy{
 .quick{
   width: 100px;
   height: 100px;
+  position: fixed;
+  right: 25px;
+  bottom: 10%;
 }
 .quick p{
  font-size: 1.4rem;
@@ -595,6 +598,8 @@ footer .f-right .tel{
  font-size: 18px;
 }
 
+
+
 }
 
 @media(max-width:450px){
@@ -617,6 +622,9 @@ footer .copy{
 .quick{
   width: 90px;
   height: 90px;
+  position: fixed;
+  right: 15px;
+  bottom: 6%;
 }
 .quick p{
  font-size: 1.3rem;

@@ -469,7 +469,10 @@ main h2{
     padding-bottom: 90px;
 }
 #waveon .swiper-button-next, #waveon .swiper-button-prev{
-  display: none;
+  transform: scale(0.4);
+}
+#waveon .swiper-button-next{
+  padding-top: 22px;
 }
 #waveon .look-list{
   height: 400px;
@@ -781,6 +784,7 @@ main h2{
 }
 #service .service-txt span{
   font-size: 14px;
+  padding-bottom: 5px;
 }
 #service{
   margin-bottom: 30px;
