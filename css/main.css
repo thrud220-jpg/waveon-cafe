@@ -14,6 +14,7 @@
   height: 1020px;
   background: url(../images/main/main-visual.jpg) no-repeat center / cover;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .main-txt{
@@ -167,6 +168,7 @@
 }
 #main-visual{
   height: 470px;
+  margin-bottom: 50px;
 }
 #brand-story .inner > div{
   display: flex;
@@ -328,10 +330,10 @@ main h2{
   padding-top: 0px;
 }
 #best .swiper-button-prev{
-    left: 12%;
-  }
-  #best .swiper-button-next{
-  right: 12%;
+    left: 19%;
+}
+#best .swiper-button-next{
+  right: 19%;
 }
 #best .swiper-button-next, #best .swiper-button-prev{
   width: 18px;
@@ -373,8 +375,23 @@ main h2{
 #best {
   padding-bottom: 90px;
 }
+#best .swiper-button-prev{
+    left: 20%;
 }
-
+#best .swiper-button-next{
+  right: 20%;
+}
+}
+@media(max-width:390px){
+  #best .swiper-button-prev{
+    left: 15%;
+    margin-top: 10px;
+}
+#best .swiper-button-next{
+  right: 15%;
+  margin-top: 10px;
+}
+}
 /*waveon*/
 #waveon{
   position: relative;

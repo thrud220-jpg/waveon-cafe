@@ -319,6 +319,9 @@
   width: 50%; 
   padding: 10px 30px 10px 30px;
 }
+.history-wrap{
+  margin-bottom: 150px;
+}
 }
 @media(max-width:710px){
   .year p{
@@ -334,6 +337,9 @@
 .year::before{
   width: 13px; 
   height: 13px; 
+}
+.history-wrap{
+  margin-bottom: 100px;
 }
 }
 @media(max-width:450px){
@@ -355,6 +361,9 @@
 }
 .year p{
   padding: 25px;
+}
+.history-wrap{
+  margin-bottom: 50px;
 }
 }
 
@@ -495,6 +504,10 @@
   width: 38px;
   padding-bottom: 1px;
 }
+.beans-list{
+  gap: 0px;
+  padding-bottom: 35px;
+}
 }
 /*paging 공통*/
 .paging{
@@ -563,7 +576,7 @@
 @media(max-width:500px){
   .paging{
   gap: 12px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   padding-top: 20px;
 }
 .paging li a{
@@ -727,6 +740,9 @@
 .bottom-img img{
   width: 100%;
 }
+.rbottom-txt .bottom2{
+  padding-bottom: 90px;
+}
 }
 
 
@@ -746,7 +762,7 @@
 }
 #roasting .inner > div{
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 #roasting .inner > div img{
   height: 350px;
@@ -758,9 +774,10 @@
 }
 #roasting .r-txt p{
   font-size: 1.2rem;
+  padding-bottom: 25px;
 }
 .roasting-bottom{
-  padding: 185px 0;
+  padding: 80px 0;
 }
  
 .rbottom-txt{
@@ -772,6 +789,9 @@
 }
 .rbottom-txt p{
   font-size: 1.2rem;
+}
+.rbottom-txt .bottom2{
+  padding-bottom: 50px;
 }
 }
 
@@ -935,7 +955,7 @@
 .writing{
   border: 0;
   margin-top: 50px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .writing a{
   margin-bottom: 90px;
@@ -965,7 +985,7 @@
   margin-bottom: 0px;
 }
 .review-list .review-txt .content{
-  width: 200px;
+  width: 300px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1082,13 +1102,19 @@
 .notice-graph table tr td{
   font-size: 1.6rem;
 }
+.notice-graph table{
+  margin: 70px 0 90px 0;
+}
 }
 
-@media(max-width:390px){
+@media(max-width:450px){
 .notice-graph table tr td{
   font-size: 1.2rem;
 }
 .notice-graph table tr td:nth-child(2){
   padding-left: 20px;
+}
+.notice-graph table{
+  margin: 70px 0 30px 0;
 }
 }
