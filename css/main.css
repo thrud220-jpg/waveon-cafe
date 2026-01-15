@@ -469,10 +469,10 @@ main h2{
     padding-bottom: 90px;
 }
 #waveon .swiper-button-next, #waveon .swiper-button-prev{
-  transform: scale(0.4);
+  transform: scale(0.5);
 }
 #waveon .swiper-button-next{
-  padding-top: 22px;
+  padding-top: 26px;
 }
 #waveon .look-list{
   height: 400px;
